@@ -1,0 +1,5 @@
+streamlit
+psycopg[binary]
+openai
+python-dotenv
+pandas

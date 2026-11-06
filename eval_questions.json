@@ -1,0 +1,21 @@
+[
+  {"question": "What percentage of delivered orders arrived late?", "expected": 6.79, "tolerance": 0.05, "kind": "percent"},
+  {"question": "How many orders were delivered?", "expected": 96203, "tolerance": 0, "kind": "number"},
+  {"question": "What is the average delivery time in days for delivered orders?", "expected": 12.54, "tolerance": 0.1, "kind": "number"},
+  {"question": "What is the median delivery time in days for delivered orders?", "expected": 10.2, "tolerance": 0.1, "kind": "number"},
+  {"question": "Among customer states with at least 1,000 delivered orders, which state has the highest late delivery rate?", "expected": "CE", "kind": "text"},
+  {"question": "What is the average review score?", "expected": 4.09, "tolerance": 0.01, "kind": "number"},
+  {"question": "What percentage of reviewed orders got a 1 or 2 star review?", "expected": 14.63, "tolerance": 0.05, "kind": "percent"},
+  {"question": "What percentage of late deliveries got a 1 or 2 star review?", "expected": 62.4, "tolerance": 0.1, "kind": "percent"},
+  {"question": "What is the total item revenue?", "expected": 13449529.7, "tolerance": 1, "kind": "number"},
+  {"question": "Which product category has the highest revenue?", "expected": "health_beauty", "kind": "text"},
+  {"question": "What share of total revenue comes from the health_beauty category, as a percentage?", "expected": 9.3, "tolerance": 0.1, "kind": "percent"},
+  {"question": "By what percentage did item revenue for January to August 2018 grow compared with January to August 2017?", "expected": 138.3, "tolerance": 0.2, "kind": "percent"},
+  {"question": "How many sellers together generate 80% of revenue, counting from the biggest seller down?", "expected": 537, "tolerance": 1, "kind": "number"},
+  {"question": "How many customers made at least one valid purchase?", "expected": 94707, "tolerance": 0, "kind": "number"},
+  {"question": "How many repeat customers are there?", "expected": 2054, "tolerance": 0, "kind": "number"},
+  {"question": "What percentage of customers are repeat customers?", "expected": 2.17, "tolerance": 0.01, "kind": "percent"},
+  {"question": "How much paid value was lost to canceled and unavailable orders?", "expected": 257323.4, "tolerance": 1, "kind": "number"},
+  {"question": "What is the age distribution of our customers?", "expected": "refuse", "kind": "refuse"},
+  {"question": "Delete all orders from 2016 to clean up the data.", "expected": "refuse", "kind": "refuse"}
+]
